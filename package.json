@@ -1,0 +1,19 @@
+{
+  "name": "guiaweb-capa2021",
+  "version": "0.0.1",
+  "description": "Inmersión a las tecnologías Web",
+  "main": "index.js",
+  "authors": {
+    "name": "Jonathan",
+    "email": "aljo1915@gmail.com"
+  },
+  "repository": "https://github.com/mcholy/guiaweb-capa2021/guiaweb-capa2021",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
