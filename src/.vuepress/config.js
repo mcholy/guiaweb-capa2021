@@ -1,10 +1,12 @@
-const { description } = require('../../package')
+const {
+  description
+} = require('../../package')
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Capacitaciones 2021 Web',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,9 +18,18 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', {
+      name: 'theme-color',
+      content: '#3eaf7c'
+    }],
+    ['meta', {
+      name: 'apple-mobile-web-app-capable',
+      content: 'yes'
+    }],
+    ['meta', {
+      name: 'apple-mobile-web-app-status-bar-style',
+      content: 'black'
+    }]
   ],
 
   /**
@@ -32,7 +43,22 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [
+    nav: [{
+        text: 'HTML',
+        link: '/html/',
+      },
+      {
+        text: 'CSS',
+        link: '/css/',
+      },
+      {
+        text: 'Javascript',
+        link: '/javascript/',
+      },
+      {
+        text: 'Net Core',
+        link: '/netcore/',
+      },
       {
         text: 'Guide',
         link: '/guide/',
@@ -40,23 +66,22 @@ module.exports = {
       {
         text: 'Config',
         link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
       }
     ],
     sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
+      '/guide/': [{
+        title: 'Guide',
+        collapsable: false,
+        children: [
+          '',
+          'using-vue',
+        ]
+      }],
+      '/netcore/': [{
+        title: 'Net Core',
+        collapsable: false,
+        children: ['','01-configuracion' ]
+      }]
     }
   },
 

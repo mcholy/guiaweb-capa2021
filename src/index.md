@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /images/logo.gif
 tagline: Inmersión a las tecnologías Web
-actionText: Quick Start →
-actionLink: /guide/
+actionText: Inicio Rápido 🚀
+actionLink: /html/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Jonathan with ❤️
+  - title: HTML & CSS
+    details: Súmate a aprender sobre estos lenguajes de marcado
+  - title: Javascript +Bono JQuery 🔥
+    details: Dale esa interactividad a tu Web con el lenguaje de programación más usado
+  - title: Net Core
+    details: Hagamos que los datos en nuestra Web persistan en el tiempo
+footer: Creado con cariño por Jonathan ❤️
 ---
